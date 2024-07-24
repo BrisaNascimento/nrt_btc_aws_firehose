@@ -1,0 +1,2 @@
+## Overview
+Python script for scraping Bitcoin quotes from google finance webpage, including the current value, date and time of the quote. The code simulates an ingestion in near real-time, allowing the configuration of batch size and request timing. The project architecture uses AWS cloud resources such as Firehose and S3.
