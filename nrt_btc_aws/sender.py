@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 
 
 def send_to_firehose(stream_name: str, current_price: str, ing_date: str):
-    """Sends 60B per file ingested"""
+    """Sends 66B per file ingested"""
     firehoseclient = boto3.client('firehose')
     try:
         firehoseclient.put_record(
